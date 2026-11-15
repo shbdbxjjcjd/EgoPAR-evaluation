@@ -1,0 +1,8 @@
+method,precision_pct,recall_pct,f1_pct,geo_cm,auc_pct,aiou_pct,sim_pct,precision_pct_sample_sd,recall_pct_sample_sd,f1_pct_sample_sd,geo_cm_sample_sd,auc_pct_sample_sd,aiou_pct_sample_sd,sim_pct_sample_sd,source
+BSTRO,42.00,45.00,42.00,43.21,,,,,,,,,,,"Yang et al. (NeurIPS 2024), Table 1"
+DECO,54.00,57.00,53.00,29.57,,,,,,,,,,,"Yang et al. (NeurIPS 2024), Table 1"
+O2O,,,,,71.52,9.65,38.70,,,,,,,,"Yang et al. (NeurIPS 2024), Table 1"
+IAG,,,,,74.30,11.21,40.20,,,,,,,,"Yang et al. (NeurIPS 2024), Table 1"
+LEMON,65.00,70.00,67.00,21.43,75.97,12.31,41.00,,,,,,,,"Yang et al. (NeurIPS 2024), Table 1"
+EgoChoir,78.00,79.00,76.00,12.62,78.02,14.94,43.60,,,,,,,,"Yang et al. (NeurIPS 2024), Table 1"
+EgoPAR,80.81,75.62,76.14,8.16,81.03,19.06,48.21,0.84,0.19,0.49,0.65,0.13,0.32,0.70,B1 three-run summary
