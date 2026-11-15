@@ -11,10 +11,13 @@ These CSV files mirror the tables and the Figure 5 coordinates in the manuscript
 | `table3_classwise.csv` | All seven metrics for each of the 12 actions, the recorded EgoChoir reference score, and the signed difference. Columns marked `_pct` in the metric field use percentages, with differences in percentage points. `geo_cm` is in centimeters. |
 | `figure5_plot_data.csv` | Ordered plot coordinates. Panel 1 uses EgoPAR minus EgoChoir AUC. Panel 2 uses EgoChoir minus EgoPAR geodesic error. |
 | `table4_hyperparameter_sensitivity.csv` | The 12 sensitivity settings. Scores use the same units as Table 2. `tau_seg` and `rho_topk` are the archive names for the segmentation threshold and Top-K ratio. |
+| `table3_egochoir_logged_baseline.csv` | EgoChoir's seven per-action metrics extracted from the archived evaluation log at manuscript precision. |
+| `figure5_logged_evaluation.csv` | Logged per-action AUC and geodesic error for both methods, together with the 24 differences plotted in Figure 5. |
+| `table2_table4_logged_checkpoints.csv` | Selected validation epochs and metrics from logged runs whose complete reported rows match Tables 2 and 4. Table 4 reports six metrics, so precision and recall are blank for its rows. |
 
 ## Class-wise evaluation
 
-Table 3 and Figure 5 use the recorded EgoChoir per-action scores from the archived comparison table. The evaluation export for the historical baseline is not included.
+The archived per-action outputs support all EgoChoir reference scores in Table 3 and both series shown in Figure 5. The EgoChoir log does not identify the checkpoint used for the per-action evaluation.
 
 ## Citation and dataset access
 
